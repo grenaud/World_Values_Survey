@@ -1,0 +1,35 @@
+# Generated figure sets — regenerable from figures/, far too large for git
+WVS/
+WVS_v6/
+WVS_v6_new/
+figures/cache/
+figures/out/
+figures/report.html
+
+# The paper is its own repo (Overleaf remote); do not nest it here
+695af1e39b41867ab286cf01/
+
+# Raw survey data — redistribute from worldvaluessurvey.org, not from here
+*.csv.gz
+F00011356-*.zip
+
+# Notebook with embedded outputs (195 MB); WVS.py is its export
+WVS.ipynb
+Untitled.ipynb
+
+# Superseded stitched figures and LaTeX drafts at the repo root
+*.png
+*.pdf
+*.tex
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+
+# Editor and interpreter droppings
+*~
+\#*\#
+.ipynb_checkpoints/
+__pycache__/

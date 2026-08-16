@@ -1,0 +1,36 @@
+%Figures
+%Figure 1 overview of data the goal of this figure is to give the readers and overview of the different countries and different languages
+%top A) WVS_v6/language_families_map.png
+%bottom B) WVS_v6/language_families_pie_chart.png
+%bottom C) WVS_v6/questions_categories_pie_chart.png
+
+
+%Figure 2 cluster wrt language, the goal of this figure is to clearly show that language not religion not geography is the best explanation for the different clustering that we see.
+%top A) WVS_v6/filtered_clustermaplang_imp.png
+%top B) WVS_v6/filtered_pca_pc1_pc2_imp.png
+%bottom C) WVS_v6/filtered_biplotPCA_circ_Religion.png
+%bottom D) WVS_v6/filtered_biplotPCA_circ_Politics.png
+
+%Figure 3 NMF is further evidence that language divides nations and that the first NMF echos the first principle component of the PCA (religion+morality)
+%left A) WVS_v6/filtered_nmf_c2_imp.png
+%center B) WVS_v6/filtered_nmf_c3_imp.png
+%right C) WVS_v6/filtered_nmf_c3_triangle.png
+
+%Figure 4 Canada+Kaz this is to show that if you divide it bilingual nation like Canada or Kazakhstan you get different positions in a PCA. In Kaz, where the Turkic-language speakers are closer to other Turkic speakers than their Russian-speaking compatriots. Despite this there are closer to one another. This is not a case in Canada where English speakers are closer to other English speakers than they are to their French-speaking compatriots.
+%top A) WVS_v6/CANKAZ_filter_pca_pc1_pc2_imp.png
+%top B) WVS_v6/CANKAZ_filter_clustermaplang_imp.png
+
+
+
+%Figure 5 Canada+Kaz this is to show that if you divide it bilingual nation like Canada or Kazakhstan you get different positions in a PCA. In Kaz, where the Turkic-language speakers are closer to other Turkic speakers than their Russian-speaking compatriots. Despite this there are closer to one another. This is not a case in Canada where English speakers are closer to other English speakers than they are to their French-speaking compatriots.
+%top A) WVS_v6/CANKAZ_filter_distances_sorted_KZK.png
+%top B) WVS_v6/CANKAZ_filter_distances_sorted_KZR.png
+%bottom C) WVS_v6/CANKAZ_filter_distances_sorted_CDE.png
+%bottom D) WVS_v6/CANKAZ_filter_distances_sorted_CDF.png
+
+%Figure 6 USA Dem vs rep this is to solve the problem of the United states does not seem to cluster with other English-speaking Nations. Young English-speaking Canadians are closer to USD and older English-speaking are closer to the brits.
+%row1 A) WVS_v6/USAPolitics_filter_pca_pc1_pc2_imp.png
+%row2 B) WVS_v6/USAPolitics_filter_distances_sorted_USD.png
+%row2 C) WVS_v6/USAPolitics_filter_distances_sorted_USR.png
+%row3 D) WVS_v6/16-29_CADUSA_distances_sorted_CDE.png  
+%row3 F) WVS_v6/50andOver_CADUSA_distances_sorted_CDE.png

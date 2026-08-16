@@ -1,0 +1,6 @@
+source ~/pyenv/bin/activate
+jupyter-notebook
+
+gabriel@laptop:~/projects/WVS$ diff -y  <(zcat ./WVS/WVS_Cross-National_Wave_7_csv_v5_0.csv.gz |head -1 |sed "s/,/\n/g"|sort) <(zcat F00011356-WVS_Cross-National_Wave_7_csv_v6_0.zip |head -1 |sed "s/,/\n/g"|sort) 
+
+
